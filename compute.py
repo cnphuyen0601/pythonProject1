@@ -12,10 +12,10 @@ class Geometry:
         self.area = area
 
     def get_type(self):
-        return self.type 
+        return self.type #return type of geometry
 
     def get_area(self):
-        return self.area
+        return self.area  #return the area of geometry
 
 g1 = Geometry("Square", 150.5)
 g2 = Geometry("Rectangle", 80)
